@@ -1,5 +1,5 @@
 {
-  "name": "node-web-api-06",
+  "name": "node-web-api",
   "version": "1.0.0",
   "description": "Async",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samartioli/node-web-api.git"
+    "url": "https://github.com/quangly/node-web-api.git"
   },
   "keywords": [
     "node"
   ],
-  "author": "Sam Artioli",
+  "author": "Quang Ly",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samartioli/node-web-api/issues"
+    "url": "https://github.com/quangly/node-web-api/issues"
   },
-  "homepage": "https://github.com/samartioli/node-web-api",
+  "homepage": "https://github.com/quangly/node-web-api",
   "dependencies": {
     "async": "^1.0.0",
     "body-parser": "^1.12.4",
