@@ -84,4 +84,5 @@ flushdb
 export PATH=/path/to/your/mongo/bin:$PATH
 export PATH=$PATH:/usr/local/mongodb/bin
 sudo mkdir -p /data/db
+sudo chown -R 'youruserid' /data/db
 ```
