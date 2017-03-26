@@ -39,7 +39,7 @@ http://localhost:3000/cat
 http://localhost:3003/dog 
 http://localhost:3002/type/cat
 http://localhost:3002/type/dog
-http://localhost:3002/catname/58d71914361eed1c8c39e407
+http://localhost:3002/cat/:id
 ```
 
 # Setup Mock Data Requests to MongoDB
