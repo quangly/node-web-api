@@ -35,7 +35,7 @@ module.exports = function(app) {
 
     app.get('/type/:type', function(req, res){
         port = null;
-        console.log(req.params.type);
+        console.log("service request type: " + req.params.type);
         switch (req.params.type) {
             default: 
                 port = 3002;
