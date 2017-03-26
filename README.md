@@ -59,8 +59,6 @@ curl -s -H "Content-Type: application/json" -X PUT -d '{"name":"junior","age":"8
 curl -s -X DELETE http://localhost:3003/dog/ID | jq
 ```    
 
-
-```
 # forever module
 ### if you make changes to cat_server.js or dog_server.js you'll have to stop the services. 
 ```
