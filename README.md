@@ -25,6 +25,7 @@ mongo
 ```
 show dbs
 use cats
+use dpgs
 db.cats.find()
 db.cats.remove({})
 use cats
