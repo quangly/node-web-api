@@ -58,8 +58,8 @@ curl -s -H "Content-Type: application/json" -X POST -d '{"name":"jessy","age":"3
 curl -s -H "Content-Type: application/json" -X POST -d '{"name":"sam","age":"5","type":"alley"}' http://localhost:3000/cat | jq
 curl -s -H "Content-Type: application/json" -X POST -d '{"name":"felix","age":"5","type":"longtail"}' http://localhost:3000/cat | jq
 curl -s -X GET http://localhost:3000/cat | jq
-curl -s -H "Content-Type: application/json" -X PUT -d '{"name":"sam","age":"8","type":"alley"}' http://localhost:3000/cat/:ID> | jq
-curl -s -X DELETE http://localhost:3000/cat/<DOC_ID> | jq
+curl -s -H "Content-Type: application/json" -X PUT -d '{"name":"sam","age":"8","type":"alley"}' http://localhost:3000/cat/:ID | jq
+curl -s -X DELETE http://localhost:3000/cat/:ID | jq
 
 
 curl -s -H "Content-Type: application/json" -X POST -d '{"name":"jessy","age":"3","type":"boxer"}' http://localhost:3003/dog | jq
@@ -81,8 +81,8 @@ flushdb
 
 ### if your mongodb doesn't work, you may need to brew update and reinstall mongo or set your path
 ```
+sudo chown -R 'youruserid' /data/db
 export PATH=/path/to/your/mongo/bin:$PATH
 export PATH=$PATH:/usr/local/mongodb/bin
 sudo mkdir -p /data/db
-sudo chown -R 'youruserid' /data/db
 ```
